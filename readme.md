@@ -104,11 +104,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 If you use RmGPT in your research, please cite our paper:
 
 ```bibtex
-@article{wang2024rmgpt,
+@article{wang2025rmgpt,
   title={RmGPT: A Foundation Model with Generative Pre-trained Transformer for Fault Diagnosis and Prognosis in Rotating Machinery},
   author={Wang, Yilin and Yu, Yifei and Sun, Kong and Lei, Peixuan and Zhang, Yuxuan and Zio, Enrico and Xia, Aiguo and Li, Yuanxiang},
-  journal={IEEE Transactions on Industrial Electronics},
-  year={2024},
+  journal={IEEE Internet of Things Journal},
+  year={2025},
   publisher={IEEE}
 }
 ```
