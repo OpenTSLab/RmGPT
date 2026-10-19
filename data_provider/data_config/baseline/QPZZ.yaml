@@ -1,0 +1,14 @@
+task_dataset:
+  PHM_QPZZ:
+      task_name: classification_PHM
+      dataset_name: QPZZ
+      dataset: QPZZ
+      data: QPZZ
+      root_path: ./datasets/PHM_dataset/QPZZ
+      label_type: 'local' # 标签映射方式：默认为local，即本地映射；若为global，则为全局映射
+      down_sample: 1
+      seq_len: 2048
+      stride_len: 128
+      enc_in: 9
+      embed: timeF
+      num_class: 5 # 分类数

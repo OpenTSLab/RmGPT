@@ -1,0 +1,14 @@
+task_dataset:
+  PHM_CWRU:
+    task_name: classification_PHM
+    dataset_name: CWRU
+    dataset: CWRU
+    data: CWRU
+    root_path: ./datasets/PHM_dataset/CWRU
+    label_type: 'local' # 标签映射方式：默认为local，即本地映射；若为global，则为全局映射
+    down_sample: 2 # 降采样系数
+    seq_len: 2048 # 输入序列长度
+    stride_len: 128 # 滑动窗口步长
+    enc_in: 3 # 通道数（不需要传入dataset）
+    embed: timeF
+    num_class: 16 # 分类数

@@ -1,0 +1,14 @@
+task_dataset:
+  PHM_SLIET:
+    task_name: classification_PHM
+    dataset_name: SLIET
+    dataset: SLIET
+    data: SLIET
+    root_path: ./datasets/PHM_dataset/SLIET
+    label_type: 'local' # 标签映射方式：默认为local，即本地映射；若为global，则为全局映射
+    down_sample: 14
+    seq_len: 2048
+    stride_len: 128
+    enc_in: 3
+    embed: timeF
+    num_class: 13 # 分类数 (备注：数据集文件更新了，分类数也变了)

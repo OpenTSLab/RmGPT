@@ -1,0 +1,13 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Experiment outputs
+checkpoints/
+wandb/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

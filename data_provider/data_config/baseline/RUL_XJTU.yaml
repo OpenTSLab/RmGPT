@@ -1,0 +1,16 @@
+task_dataset:
+
+  PHM_RUL_XJTU:
+    task_name: RUL_PHM
+    dataset_name: RUL_XJTU
+    dataset: RUL_XJTU
+    data: RUL_XJTU
+    root_path: ./datasets/PHM_dataset/XJTU_RUL_NEW
+    down_sample: 1
+    seq_len: 7680
+    stride_len: 128
+    enc_in: 2
+    embed: timeF
+    num_look_back: 30
+    num_class: 4
+    test_idx: [3,6,9]

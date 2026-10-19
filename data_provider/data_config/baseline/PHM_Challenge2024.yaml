@@ -1,0 +1,14 @@
+task_dataset:
+  PHM_Challenge2024:
+    task_name: classification_PHM
+    dataset_name: PHM_Challenge2024
+    dataset: PHM_Challenge2024
+    data: PHM_Challenge2024
+    root_path: ./datasets/PHM_dataset/PHM_Challenge2024
+    label_type: 'local' # 标签映射方式：默认为local，即本地映射；若为global，则为全局映射
+    down_sample: 10
+    seq_len: 2048
+    stride_len: 128
+    enc_in: 21
+    embed: timeF
+    num_class: 17 # 分类数
