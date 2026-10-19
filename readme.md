@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-brightgreen.svg)](https://www.python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-GPU-orange.svg)](https://pytorch.org)
-[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://github.com/Pandalin98/RmGPT/releases/tag/v1.0)
+[![Release](https://img.shields.io/badge/Release-v1.0-blue.svg)](https://github.com/OpenTSLab/RmGPT/releases/tag/v1.0)
 
 RmGPT is a unified foundation model for fault diagnosis and prognosis in rotating machinery. Instead of training a separate network for each machine or operating condition, RmGPT uses one set of parameters to learn from heterogeneous vibration signals and to adapt to new datasets, fault modes, diagnosis tasks, and remaining-useful-life prediction tasks.
 
@@ -77,7 +77,7 @@ Four token families support the framework:
 
 The experiments require Python 3.8 or newer and a CUDA-enabled PyTorch installation. Install PyTorch from the [official installation instructions](https://pytorch.org/get-started/locally/) for your CUDA version, then install the remaining pinned dependencies:
 
-    git clone https://github.com/Pandalin98/RmGPT.git
+    git clone https://github.com/OpenTSLab/RmGPT.git
     cd RmGPT
     pip install -r requirements.txt
 
@@ -164,7 +164,7 @@ If you use RmGPT in research, please cite the project:
       author       = {Wang, Yilin and Yu, Yifei and Sun, Kong and Lei, Peixuan and
                       Zhang, Yuxuan and Zio, Enrico and Xia, Aiguo and Li, Yuanxiang},
       year         = {2025},
-      howpublished = {\url{https://github.com/Pandalin98/RmGPT}}
+      howpublished = {\url{https://github.com/OpenTSLab/RmGPT}}
     }
 
 ## License
@@ -197,7 +197,7 @@ For implementation questions and bug reports, please open a GitHub issue.
 
 ## Availability
 
-- **Code:** [Pandalin98/RmGPT](https://github.com/Pandalin98/RmGPT), v1.0.
-- **Issues:** [GitHub issue tracker](https://github.com/Pandalin98/RmGPT/issues).
+- **Code:** [OpenTSLab/RmGPT](https://github.com/OpenTSLab/RmGPT), v1.0.
+- **Issues:** [GitHub issue tracker](https://github.com/OpenTSLab/RmGPT/issues).
 
 This repository contains research code. Validate the model and evaluation pipeline thoroughly before deploying it to a safety-critical production system.
